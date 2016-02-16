@@ -71,33 +71,22 @@ The NKKVOLabel also provide a singleTapped action
 
 ```objective-c
 
--(void)viewDidLoad{
 
-    Person *person = [[Person alloc] init];
-    person.name = @"King";
-    person.likeCount = @1;
-
-    NKKVOLabel *likeLabel = [[NKKVOLabel alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
-    [self.view addSubview:likeLabel];
-    
-    likeLabel.target = self;
-    likeLabel.renderMethod = @selector(stringWithNumber:);
-    
     likeLabel.singleTapped = @selector(like:);
     
-    [likeLabel bindValueOfModel:person forKeyPath:@"likeCount"];
-}
     
 -(void)like:(id)sender{
     
     NSInteger count = [self.person.likeCount integerValue];
     count++;
-    
-    self.person.likeCount = [NSNumber numberWithInteger:count];
 
+    self.person.likeCount = [NSNumber numberWithInteger:count];
 }
 ```
 
+## Prerequisites
+
+- iOS 6 or later.
 
 ## License
 
