@@ -34,6 +34,40 @@ When we edit the name, just set the person's name, and the label will display th
 
 ```
 
+If the value if not NSSting, such as NSNumber or some other type, or we want to do some additional things when a new value is set, we can tell the label a renderMethod.
+
+```objective-c
+
+-(void)viewDidLoad{
+
+    Person *person = [[Person alloc] init];
+    person.name = @"King";
+    person.likeCount = @1;
+
+    NKKVOLabel *likeLabel = [[NKKVOLabel alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    [self.view addSubview:likeLabel];
+    
+    likeLabel.target = self;
+    likeLabel.renderMethod = @selector(stringWithNumber:);
+    
+    [likeLabel bindValueOfModel:person forKeyPath:@"likeCount"];
+}
+    
+-(NSString*)stringWithNumber:(NSNumber*)number{
+    
+    if (!number) {
+        number = @0;
+    }
+    NSString *finalString = [NSString stringWithFormat:@"%@", number];
+    
+    return finalString;
+}
+
+```
+
+
+
+
 ## License
 
 This code is distributed under the MIT license. See the `LICENSE` file for more info.
