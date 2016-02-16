@@ -15,9 +15,24 @@ For more information on KVO, see Apple's [Introduction to Key-Value Observing](h
 
 Basic usage
 
+```objective-c
 
+    Person *person = [[Person alloc] init];
+    person.name = @"King";
+    
+    NKKVOLabel *label = [[NKKVOLabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:label];
+    
+    [label bindValueOfModel:person forKeyPath:@"name"];
 
+```
+When we edit the name, just set the person's name, and the label will display the new name automatically.
 
+```objective-c
+
+    person.name = @"Another King";
+
+```
 
 ## License
 
