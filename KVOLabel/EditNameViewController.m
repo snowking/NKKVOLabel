@@ -35,6 +35,8 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 
     self.textField = [[UITextField alloc] initWithFrame:CGRectMake(10, 60, self.view.bounds.size.width-20, 100)];
     [self.view addSubview:_textField];
