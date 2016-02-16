@@ -34,7 +34,7 @@ When we edit the name, just set the person's name, and the label will display th
 
 ```
 
-If the value if not NSSting, such as NSNumber or some other type, or we want to do some additional things when a new value is set, we can tell the label a renderMethod.
+If the value if not NSSting, such as NSNumber or some other type, or we want to do some additional things when a new value is set, we can tell the label a renderMethod to tell the label the string we need.
 
 ```objective-c
 
@@ -65,7 +65,38 @@ If the value if not NSSting, such as NSNumber or some other type, or we want to 
 
 ```
 
+We can also set the label's frame in the renderMethod if we need.
 
+The NKKVOLabel also provide a singleTapped action
+
+```objective-c
+
+-(void)viewDidLoad{
+
+    Person *person = [[Person alloc] init];
+    person.name = @"King";
+    person.likeCount = @1;
+
+    NKKVOLabel *likeLabel = [[NKKVOLabel alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    [self.view addSubview:likeLabel];
+    
+    likeLabel.target = self;
+    likeLabel.renderMethod = @selector(stringWithNumber:);
+    
+    likeLabel.singleTapped = @selector(like:);
+    
+    [likeLabel bindValueOfModel:person forKeyPath:@"likeCount"];
+}
+    
+-(void)like:(id)sender{
+    
+    NSInteger count = [self.person.likeCount integerValue];
+    count++;
+    
+    self.person.likeCount = [NSNumber numberWithInteger:count];
+
+}
+```
 
 
 ## License
