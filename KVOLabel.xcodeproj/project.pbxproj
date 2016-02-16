@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFEF4541C72C83E00E6E01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEF4531C72C83E00E6E01B /* main.m */; };
+		3CFEF4571C72C83E00E6E01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEF4561C72C83E00E6E01B /* AppDelegate.m */; };
+		3CFEF45D1C72C83E00E6E01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEF45B1C72C83E00E6E01B /* Main.storyboard */; };
+		3CFEF45F1C72C83E00E6E01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEF45E1C72C83E00E6E01B /* Assets.xcassets */; };
+		3CFEF4621C72C83E00E6E01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFEF4601C72C83E00E6E01B /* LaunchScreen.storyboard */; };
+		3CFEF46B1C72C86800E6E01B /* NKKVOLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEF46A1C72C86800E6E01B /* NKKVOLabel.m */; };
+		3CFEF46F1C72C96100E6E01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEF46E1C72C96100E6E01B /* ViewController.m */; };
+		3CFEF4721C72CB5800E6E01B /* EditNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFEF4711C72CB5800E6E01B /* EditNameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CFEF44F1C72C83E00E6E01B /* KVOLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFEF4531C72C83E00E6E01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFEF4551C72C83E00E6E01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CFEF4561C72C83E00E6E01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CFEF45C1C72C83E00E6E01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CFEF45E1C72C83E00E6E01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFEF4611C72C83E00E6E01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CFEF4631C72C83E00E6E01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFEF4691C72C86800E6E01B /* NKKVOLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKKVOLabel.h; sourceTree = "<group>"; };
+		3CFEF46A1C72C86800E6E01B /* NKKVOLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKKVOLabel.m; sourceTree = "<group>"; };
+		3CFEF46D1C72C96100E6E01B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CFEF46E1C72C96100E6E01B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CFEF4701C72CB5800E6E01B /* EditNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNameViewController.h; sourceTree = "<group>"; };
+		3CFEF4711C72CB5800E6E01B /* EditNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFEF44C1C72C83E00E6E01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFEF4461C72C83E00E6E01B = {
+			isa = PBXGroup;
+			children = (
+				3CFEF4511C72C83E00E6E01B /* KVOLabel */,
+				3CFEF4501C72C83E00E6E01B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFEF4501C72C83E00E6E01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEF44F1C72C83E00E6E01B /* KVOLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFEF4511C72C83E00E6E01B /* KVOLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEF46C1C72C87000E6E01B /* NK */,
+				3CFEF4551C72C83E00E6E01B /* AppDelegate.h */,
+				3CFEF4561C72C83E00E6E01B /* AppDelegate.m */,
+				3CFEF46D1C72C96100E6E01B /* ViewController.h */,
+				3CFEF46E1C72C96100E6E01B /* ViewController.m */,
+				3CFEF4701C72CB5800E6E01B /* EditNameViewController.h */,
+				3CFEF4711C72CB5800E6E01B /* EditNameViewController.m */,
+				3CFEF45B1C72C83E00E6E01B /* Main.storyboard */,
+				3CFEF45E1C72C83E00E6E01B /* Assets.xcassets */,
+				3CFEF4601C72C83E00E6E01B /* LaunchScreen.storyboard */,
+				3CFEF4631C72C83E00E6E01B /* Info.plist */,
+				3CFEF4521C72C83E00E6E01B /* Supporting Files */,
+			);
+			path = KVOLabel;
+			sourceTree = "<group>";
+		};
+		3CFEF4521C72C83E00E6E01B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEF4531C72C83E00E6E01B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CFEF46C1C72C87000E6E01B /* NK */ = {
+			isa = PBXGroup;
+			children = (
+				3CFEF4691C72C86800E6E01B /* NKKVOLabel.h */,
+				3CFEF46A1C72C86800E6E01B /* NKKVOLabel.m */,
+			);
+			name = NK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFEF44E1C72C83E00E6E01B /* KVOLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFEF4661C72C83E00E6E01B /* Build configuration list for PBXNativeTarget "KVOLabel" */;
+			buildPhases = (
+				3CFEF44B1C72C83E00E6E01B /* Sources */,
+				3CFEF44C1C72C83E00E6E01B /* Frameworks */,
+				3CFEF44D1C72C83E00E6E01B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOLabel;
+			productName = KVOLabel;
+			productReference = 3CFEF44F1C72C83E00E6E01B /* KVOLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFEF4471C72C83E00E6E01B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jinzhenghua;
+				TargetAttributes = {
+					3CFEF44E1C72C83E00E6E01B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CFEF44A1C72C83E00E6E01B /* Build configuration list for PBXProject "KVOLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CFEF4461C72C83E00E6E01B;
+			productRefGroup = 3CFEF4501C72C83E00E6E01B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFEF44E1C72C83E00E6E01B /* KVOLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFEF44D1C72C83E00E6E01B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFEF4621C72C83E00E6E01B /* LaunchScreen.storyboard in Resources */,
+				3CFEF45F1C72C83E00E6E01B /* Assets.xcassets in Resources */,
+				3CFEF45D1C72C83E00E6E01B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFEF44B1C72C83E00E6E01B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFEF46B1C72C86800E6E01B /* NKKVOLabel.m in Sources */,
+				3CFEF4721C72CB5800E6E01B /* EditNameViewController.m in Sources */,
+				3CFEF4571C72C83E00E6E01B /* AppDelegate.m in Sources */,
+				3CFEF46F1C72C96100E6E01B /* ViewController.m in Sources */,
+				3CFEF4541C72C83E00E6E01B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CFEF45B1C72C83E00E6E01B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFEF45C1C72C83E00E6E01B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFEF4601C72C83E00E6E01B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFEF4611C72C83E00E6E01B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFEF4641C72C83E00E6E01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFEF4651C72C83E00E6E01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFEF4671C72C83E00E6E01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVOLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.KVOLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CFEF4681C72C83E00E6E01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVOLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.KVOLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFEF44A1C72C83E00E6E01B /* Build configuration list for PBXProject "KVOLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFEF4641C72C83E00E6E01B /* Debug */,
+				3CFEF4651C72C83E00E6E01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFEF4661C72C83E00E6E01B /* Build configuration list for PBXNativeTarget "KVOLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFEF4671C72C83E00E6E01B /* Debug */,
+				3CFEF4681C72C83E00E6E01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFEF4471C72C83E00E6E01B /* Project object */;
+}
