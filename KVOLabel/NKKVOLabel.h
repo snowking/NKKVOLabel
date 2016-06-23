@@ -31,6 +31,7 @@
 @property (nonatomic, assign) SEL       singleTapped;
 
 @property (nonatomic, strong) UITapGestureRecognizer *tap;
+@property (nonatomic, assign) BOOL      useAttributedText;
 
 -(void)bindValueOfModel:(id)model forKeyPath:(NSString*)key;
 
