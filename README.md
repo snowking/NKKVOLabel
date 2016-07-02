@@ -2,7 +2,7 @@
 
 Key-value observing is a particularly useful technique for communicating between layers in a Model-View-Controller application. When we edit a user's name in a view controller, we need to update the name on all the other view controllers  which is displaying the user's name. We may do this in such ways:
 
-- Add observer through the NSNotificationCenter in all the view controllers and when editing the name, post a NSNotification.
+- Add observer through the NSNotificationCenter in all the view controllers, and when editing the name, post a NSNotification.
 - Update the name in view controllers's viewWillAppear: or viewDidAppear:
 
 And if the user's name is displayed in a TableViewCell, we may need to reload the whole table.
@@ -34,7 +34,7 @@ When we edit the name, just set the person's name, and the label will display th
 
 ```
 
-If the value if not NSSting, such as NSNumber or some other type, or we want to do some additional things when a new value is set, we can tell the label a renderMethod to tell the label the string we need.
+If the value is not NSSting, such as NSNumber or some other type, or we want to do some additional things when a new value is set, we can tell the label a renderMethod to tell the label the string we need.
 
 ```objective-c
 
