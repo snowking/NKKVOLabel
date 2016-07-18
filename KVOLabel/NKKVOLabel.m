@@ -43,11 +43,11 @@ _Pragma("clang diagnostic pop") \
     
     if (_target&&_renderMethod&&[_target respondsToSelector:_renderMethod]) {
         SuppressPerformSelectorLeakWarning(
-                                           if (self.useAttributedText){
-                                               self.attributedText = [_target performSelector:_renderMethod withObject:value];
+                                            if (self.useAttributedText){
+                                               self.attributedText = [_target performSelector:_renderMethod withObject:value withObject:self];
                                            }
                                            else{
-                                               self.text = [_target performSelector:_renderMethod withObject:value];
+                                               self.text = [_target performSelector:_renderMethod withObject:value withObject:self];
                                            }
                                            );
     }
